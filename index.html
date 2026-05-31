@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fakhar Imam Zikri | AI/ML Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Fakhar Imam Zikri, AI/ML Engineer and Data Scientist specializing in Computer Vision, Deep Learning, and Data Analytics.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- WebGL Background Canvas -->
+  <canvas id="webgl-canvas"></canvas>
+
+  <!-- Dynamic Shutter Page Loader -->
+  <div class="page-loader">
+    <div class="loader-grid-container" id="loader-grid"></div>
+    <div class="page-loader_content">
+      <div class="loader-logo" id="loader-logo">FAKHAR IMAM</div>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-brand">Fakhar Imam</div>
+    <ul class="nav-links">
+      <li><a href="#hero" class="active">Home</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="content-wrapper">
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-content">
+        <div class="hero-subtitle" data-animate="fade-up">Welcome to my space</div>
+        <h1 class="hero-title" data-animate="heading-reveal">
+          <span>I'm Fakhar Imam,</span>
+          <span class="accent-text">AI / ML Engineer</span>
+        </h1>
+        <p class="hero-desc" data-animate="fade-up">
+          Aspiring Data Scientist with hands-on experience in Machine Learning, Computer Vision, and Data Engineering. Developing intelligent solutions to bridge data and real-world impact.
+        </p>
+
+        <!-- Dynamic Info Tags -->
+        <div class="contact-meta-grid" data-animate="fade-up">
+          <div class="meta-item">
+            <i class="lucide-map-pin"></i>
+            <span>Gilgit, Pakistan</span>
+          </div>
+          <div class="meta-item">
+            <i class="lucide-mail"></i>
+            <span>rahkaf19@gmail.com</span>
+          </div>
+          <div class="meta-item">
+            <i class="lucide-phone"></i>
+            <span>+923555828387</span>
+          </div>
+          <div class="meta-item">
+            <i class="lucide-briefcase"></i>
+            <span>Open to Remote & Hybrid</span>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn-primary" data-animate="fade-up">
+          <span>Get In Touch</span>
+          <i class="lucide-arrow-right"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <h2 class="section-title" data-animate="fade-up">Work Experience</h2>
+      <div class="timeline">
+        
+        <!-- Experience 1 -->
+        <div class="card timeline-item" data-animate="slide-reveal">
+          <div class="timeline-item-header">
+            <div class="timeline-title">
+              <h3>Data Scientist & Data Engineer</h3>
+              <p class="company-name">BeeNeural Pvt Ltd — Onsite Working</p>
+            </div>
+            <div class="timeline-meta">
+              <span class="timeline-date">May '25 — Present</span>
+              <p class="timeline-loc">Gilgit, Pakistan</p>
+            </div>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Implemented a Real-Time Facial Recognition System using Convolutional Neural Networks (CNN) and OpenCV for identity verification and attendance monitoring.</li>
+            <li>Building a Skin Disease Classification Model using EfficientNetB5, achieving high accuracy in identifying multiple skin conditions.</li>
+            <li>Engineered a Document OCR Extraction Pipeline using Tesseract OCR and OpenCV to automate data capture from scanned forms and structured documents.</li>
+            <li>Performed extensive Exploratory Data Analysis (EDA) using pandas, matplotlib, and seaborn, along with automated profiling tools (pandas-profiling), to identify trends, correlations, and data quality issues.</li>
+          </ul>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="card timeline-item" data-animate="slide-reveal">
+          <div class="timeline-item-header">
+            <div class="timeline-title">
+              <h3>Data Science Intern</h3>
+              <p class="company-name">Self-Initiated Projects & Competitions</p>
+            </div>
+            <div class="timeline-meta">
+              <span class="timeline-date">Sep '24 — Apr '25</span>
+              <p class="timeline-loc">Gilgit, Pakistan (Flexible Remote)</p>
+            </div>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Developed a Flight Delay Prediction System using historical airline data, performing EDA, feature engineering, and training ML models to improve scheduling efficiency.</li>
+            <li>Built a Chest X-Ray Classification Model with MobileNetV2 to detect anomalies using deep learning and transfer learning techniques.</li>
+            <li>Designed and deployed an AI Voice Assistant for PC automation using Python libraries for voice recognition and system control.</li>
+            <li>Led the development of a Call Center Dashboard using Power BI to visualize agent performance and optimize customer interaction metrics.</li>
+            <li>Created an interactive PhoneNow Analytics Dashboard using Power BI to monitor key performance metrics and visualize user engagement.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2 class="section-title" data-animate="fade-up">Expertise & Skills</h2>
+      <div class="card skills-grid" data-animate="fade-up">
+        
+        <!-- Category 1 -->
+        <div class="skill-category">
+          <h3>Programming</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">pandas</span>
+            <span class="skill-tag">SQL</span>
+          </div>
+        </div>
+
+        <!-- Category 2 -->
+        <div class="skill-category">
+          <h3>AI & Machine Learning</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Model Building</span>
+            <span class="skill-tag">Model Validation</span>
+            <span class="skill-tag">Data Preprocessing</span>
+            <span class="skill-tag">Computer Vision (CNN, OpenCV)</span>
+            <span class="skill-tag">Deep Learning (MobileNetV2, EfficientNetB5)</span>
+            <span class="skill-tag">Data Cleaning & Loading</span>
+            <span class="skill-tag">Data Mining</span>
+          </div>
+        </div>
+
+        <!-- Category 3 -->
+        <div class="skill-category">
+          <h3>Analytics & Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">Data Visualization</span>
+            <span class="skill-tag">Excel</span>
+            <span class="skill-tag">Analytical Writing</span>
+            <span class="skill-tag">Presentation & Communication</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="edu-cert-grid">
+        
+        <!-- Education column -->
+        <div class="edu-column">
+          <h2 class="section-title" data-animate="fade-up">Education</h2>
+          <div class="list-container">
+            
+            <div class="list-item" data-animate="fade-up">
+              <div class="list-item-content">
+                <h4>Bachelors in Computer Science</h4>
+                <p>Karakoram International University, Gilgit</p>
+                <p style="color: var(--text-muted); font-size: 0.85rem;">Sep '22 — Present</p>
+              </div>
+              <span class="badge-gpa">GPA: 3.1</span>
+            </div>
+
+            <div class="list-item" data-animate="fade-up">
+              <div class="list-item-content">
+                <h4>FSc in Pre-Medical</h4>
+                <p>Aga Khan Higher Secondary School, Gilgit</p>
+                <p style="color: var(--text-muted); font-size: 0.85rem;">Apr '17 — Apr '22</p>
+              </div>
+              <span class="badge-gpa">GPA: 3.2</span>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Certifications column -->
+        <div class="cert-column">
+          <h2 class="section-title" data-animate="fade-up">Certifications</h2>
+          <div class="list-container">
+            
+            <div class="list-item" data-animate="fade-up">
+              <div class="list-item-content">
+                <h4>AI & Data Science</h4>
+                <p>NUST (National University of Sciences & Tech)</p>
+              </div>
+            </div>
+
+            <div class="list-item" data-animate="fade-up">
+              <div class="list-item-content">
+                <h4>Introducing Generative AI with AWS</h4>
+                <p>Udacity</p>
+              </div>
+            </div>
+
+            <div class="list-item" data-animate="fade-up">
+              <div class="list-item-content">
+                <h4>AI For Everyone</h4>
+                <p>DeepLearning.AI (Coursera)</p>
+              </div>
+            </div>
+
+            <div class="list-item" data-animate="fade-up">
+              <div class="list-item-content">
+                <h4>Get Started with Python / Python Basics</h4>
+                <p>Coursera</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2 class="section-title" data-animate="fade-up">Get in Touch</h2>
+      <div class="contact-grid">
+        
+        <div class="contact-card card" data-animate="fade-up">
+          <h3>Let's collaborate</h3>
+          <p style="color: var(--text-muted)">I'm open to Remote and Hybrid roles. Reach out and let's build something exceptional.</p>
+          
+          <div class="contact-info-item">
+            <div class="icon-wrapper">
+              <i class="lucide-mail"></i>
+            </div>
+            <div class="contact-info-text">
+              <h4>Email</h4>
+              <a href="mailto:rahkaf19@gmail.com">rahkaf19@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="icon-wrapper">
+              <i class="lucide-phone"></i>
+            </div>
+            <div class="contact-info-text">
+              <h4>Phone</h4>
+              <p>+923555828387</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="icon-wrapper">
+              <i class="lucide-linkedin"></i>
+            </div>
+            <div class="contact-info-text">
+              <h4>LinkedIn</h4>
+              <a href="https://linkedin.com" target="_blank">Fakhar Imam Zikri</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="card contact-form" data-animate="fade-up" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-control" placeholder="yourname@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" class="form-control" placeholder="Your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">
+            <span>Send Message</span>
+            <i class="lucide-send"></i>
+          </button>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Fakhar Imam Zikri. All Rights Reserved. Gilgit, Pakistan.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="app.js"></script>
+</body>
+</html>
